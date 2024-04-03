@@ -88,7 +88,7 @@ class LLaVa_v15_Reproduction_7B(ModelConfig):
     align_epochs: int = 1
     align_max_steps: Optional[int] = None
     align_global_batch_size: int = 252
-    align_per_device_batch_size: int = 16
+    align_per_device_batch_size: int = 36
 
     align_learning_rate: float = 1e-3
     align_weight_decay: float = 0.0
@@ -102,7 +102,7 @@ class LLaVa_v15_Reproduction_7B(ModelConfig):
     finetune_epochs: int = 1
     finetune_max_steps: Optional[int] = None
     finetune_global_batch_size: int = 126
-    finetune_per_device_batch_size: int = 16
+    finetune_per_device_batch_size: int = 18
 
     finetune_learning_rate: float = 2e-5
     finetune_weight_decay: float = 0.1
